@@ -1,0 +1,5 @@
+patient_id,timezone,age_band
+P001,Europe/Paris,adult_35_44
+P002,America/New_York,adult_55_64
+P003,Asia/Tokyo,adult_25_34
+P004,Europe/London,adult_65_74

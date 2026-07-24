@@ -1,0 +1,13 @@
+# Core pipeline
+pandas==3.0.2
+numpy==2.4.4
+pydantic==2.13.4
+
+# Tests
+pytest==9.1.1
+
+# Narrative LLM call (OpenRouter, OpenAI-compatible).
+# Optional at runtime: if OPENROUTER_API_KEY is unset OR this package is absent,
+# narrative.py falls back to the deterministic builder so the pipeline still runs.
+openai==1.54.4
+streamlit==1.60.0

@@ -1,0 +1,27 @@
+{
+  "dataConfidence": "high",
+  "engine": "llm",
+  "generatedAt": "2026-07-24T10:14:27.779050+00:00",
+  "model_used": "google/gemini-2.5-flash-lite",
+  "summary": "The user's data shows a general trend of over 10,000 steps on most days, with some exceptions. Sleep hours were consistently recorded at 7.92 when available. Heart rate variability (HRV) showed fluctuations throughout the period, with some readings below 60. Several days had missing data for steps, cadence, or other metrics due to sensor issues.",
+  "watchItems": [
+    {
+      "concern": "Low heart rate variability (HRV) readings were observed on multiple days, including 56.1 on 2025-06-17 and 50.7 on 2025-06-18.",
+      "rank": 1,
+      "tracedTo": {
+        "date": "2025-06-17",
+        "metric": "hrv",
+        "value": 56.1
+      }
+    },
+    {
+      "concern": "A high resting heart rate (RHR) of 56.4 was recorded on 2025-06-18.",
+      "rank": 2,
+      "tracedTo": {
+        "date": "2025-06-18",
+        "metric": "rhr",
+        "value": 56.4
+      }
+    }
+  ]
+}

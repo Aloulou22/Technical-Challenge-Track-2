@@ -1,0 +1,8 @@
+{
+  "dataConfidence": "medium",
+  "engine": "llm",
+  "generatedAt": "2026-07-24T10:14:14.081665+00:00",
+  "model_used": "google/gemini-2.5-flash-lite",
+  "summary": "The data shows a generally consistent pattern of daily activity and physiological metrics over the observed period. Steps taken varied, with a high of 12063 on June 25th and a low of 3786 on June 28th. Heart rate and oxygen saturation remained within normal ranges. Sleep scores showed variability, with a peak of 100.0 on June 7th and a low of 58.1 on June 2nd.",
+  "watchItems": []
+}

@@ -1,0 +1,27 @@
+{
+  "dataConfidence": "high",
+  "engine": "llm",
+  "generatedAt": "2026-07-24T10:14:19.643170+00:00",
+  "model_used": "google/gemini-2.5-flash-lite",
+  "summary": "The user's data shows a wide range of daily steps, from 2948 to 7288, with several days missing step and cadence data. Heart rate variability (HRV) fluctuated, with a notable low of 27.2 on June 11th and a high of 52.7 on June 17th. Sleep scores varied, with the highest being 97.4 on June 15th and the lowest being 54.1 on June 27th. Recovery scores also showed significant variation, ranging from 15.4 to 100.0.",
+  "watchItems": [
+    {
+      "concern": "Heart rate variability (HRV) dropped to 27.2 on June 11th, which is lower than other recorded values.",
+      "rank": 1,
+      "tracedTo": {
+        "date": "2025-06-11",
+        "metric": "hrv",
+        "value": 27.2
+      }
+    },
+    {
+      "concern": "Recovery score was very low at 15.4 on June 14th.",
+      "rank": 2,
+      "tracedTo": {
+        "date": "2025-06-14",
+        "metric": "recovery",
+        "value": 15.4
+      }
+    }
+  ]
+}

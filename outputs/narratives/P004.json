@@ -1,0 +1,27 @@
+{
+  "dataConfidence": "medium",
+  "engine": "llm",
+  "generatedAt": "2026-07-24T10:14:31.915363+00:00",
+  "model_used": "google/gemini-2.5-flash-lite",
+  "summary": "The patient's data shows a range of daily steps from 2911 to 5087, with an average cadence around 110. Steps and cadence data were missing on several days, and there were also flags for missing insole or watch data. Heart rate variability fluctuated, with a notable high of 42.4 on June 9th and a low of 18.6 on June 27th. Sleep scores varied, with a perfect score of 100.0 on June 5th and a low of 48.4 on June 23rd.",
+  "watchItems": [
+    {
+      "concern": "Heart rate variability dropped to 18.6 on June 27th.",
+      "rank": 1,
+      "tracedTo": {
+        "date": "2025-06-27",
+        "metric": "hrv",
+        "value": 18.6
+      }
+    },
+    {
+      "concern": "The lowest sleep score of 48.4 was recorded on June 23rd.",
+      "rank": 2,
+      "tracedTo": {
+        "date": "2025-06-23",
+        "metric": "sleep_score",
+        "value": 48.4
+      }
+    }
+  ]
+}

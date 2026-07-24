@@ -1,0 +1,1345 @@
+[
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {},
+      "hrv": 36.6,
+      "rhr": 52.9,
+      "source": {
+        "hrv": "watch",
+        "rhr": "watch",
+        "spo2": "watch"
+      },
+      "spo2": 96.9
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-01",
+    "flags": {
+      "missingSources": [
+        "ring"
+      ],
+      "outliers": [
+        {
+          "action": "nulled",
+          "date": "2025-06-01",
+          "method": "physiological_bound",
+          "metric": "steps",
+          "value": 92000.0
+        },
+        {
+          "action": "nulled",
+          "date": "2025-06-01",
+          "method": "physiological_bound",
+          "metric": "cadence",
+          "value": 410.0
+        }
+      ]
+    },
+    "gait": {
+      "cadence": null,
+      "dataQuality": "partial",
+      "steps": null,
+      "symmetry": 0.94
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 72.2,
+      "source": "watch",
+      "strain": 8.7
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "missing",
+      "hours": null,
+      "score": null,
+      "source": null
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": 21.2
+      },
+      "hrv": 60.9,
+      "rhr": 54.6,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 97.2
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-02",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 119.4,
+      "dataQuality": "ok",
+      "steps": 7167,
+      "symmetry": 0.968
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 49.9,
+      "source": "watch",
+      "strain": 8.7
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 58.1,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {},
+      "hrv": 44.3,
+      "rhr": 63.7,
+      "source": {
+        "hrv": "watch",
+        "rhr": "watch",
+        "spo2": "watch"
+      },
+      "spo2": 96.7
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-03",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 108.7,
+      "dataQuality": "ok",
+      "steps": 8292,
+      "symmetry": 0.929
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 71.2,
+      "source": "watch",
+      "strain": 7.9
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "partial",
+      "hours": null,
+      "score": 61.0,
+      "source": "ring_interpolated"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": 16.6
+      },
+      "hrv": 52.7,
+      "rhr": 56.1,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 97.0
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-04",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 112.2,
+      "dataQuality": "ok",
+      "steps": 7142,
+      "symmetry": 0.922
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 84.3,
+      "source": "watch",
+      "strain": 9.1
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 64.0,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": 16.0
+      },
+      "hrv": 56.9,
+      "rhr": 54.2,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 97.1
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-05",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 109.8,
+      "dataQuality": "ok",
+      "steps": 9495,
+      "symmetry": 0.929
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 45.0,
+      "source": "watch",
+      "strain": 9.4
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 79.1,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": 22.3
+      },
+      "hrv": 65.8,
+      "rhr": 54.5,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 97.0
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-06",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 107.6,
+      "dataQuality": "ok",
+      "steps": 11113,
+      "symmetry": 0.893
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 69.7,
+      "source": "watch",
+      "strain": 12.0
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 70.4,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": 21.6
+      },
+      "hrv": 55.5,
+      "rhr": 55.5,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 96.9
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-07",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 99.5,
+      "dataQuality": "ok",
+      "steps": 9122,
+      "symmetry": 0.948
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 51.3,
+      "source": "watch",
+      "strain": 14.7
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 100.0,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": 14.2
+      },
+      "hrv": 66.0,
+      "rhr": 56.6,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 96.9
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-08",
+    "flags": {
+      "missingSources": [],
+      "outliers": [
+        {
+          "action": "nulled",
+          "date": "2025-06-08",
+          "method": "physiological_bound",
+          "metric": "steps",
+          "value": 92000.0
+        },
+        {
+          "action": "nulled",
+          "date": "2025-06-08",
+          "method": "physiological_bound",
+          "metric": "cadence",
+          "value": 410.0
+        }
+      ]
+    },
+    "gait": {
+      "cadence": null,
+      "dataQuality": "partial",
+      "steps": null,
+      "symmetry": 0.94
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 68.2,
+      "source": "watch",
+      "strain": 9.1
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 66.2,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": 14.5
+      },
+      "hrv": 59.8,
+      "rhr": 55.2,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 96.8
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-09",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 114.4,
+      "dataQuality": "ok",
+      "steps": 9444,
+      "symmetry": 0.905
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 31.2,
+      "source": "watch",
+      "strain": 12.0
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 69.2,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": -4.4
+      },
+      "hrv": 48.8,
+      "rhr": 56.2,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 97.0
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-10",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 104.7,
+      "dataQuality": "ok",
+      "steps": 11752,
+      "symmetry": 0.89
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 60.0,
+      "source": "watch",
+      "strain": 12.3
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 84.9,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": 9.1
+      },
+      "hrv": 55.2,
+      "rhr": 54.3,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 97.1
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-11",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 112.2,
+      "dataQuality": "ok",
+      "steps": 5421,
+      "symmetry": 0.95
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 57.8,
+      "source": "watch",
+      "strain": 3.7
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 76.0,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": 0.5
+      },
+      "hrv": 57.5,
+      "rhr": 55.7,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 97.2
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-12",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 110.0,
+      "dataQuality": "ok",
+      "steps": 9249,
+      "symmetry": 0.916
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 39.0,
+      "source": "watch",
+      "strain": 11.9
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 98.6,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {},
+      "hrv": 42.9,
+      "rhr": 58.4,
+      "source": {
+        "hrv": "watch",
+        "rhr": "watch",
+        "spo2": "watch"
+      },
+      "spo2": 97.1
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-13",
+    "flags": {
+      "missingSources": [
+        "insole"
+      ],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": null,
+      "dataQuality": "missing",
+      "steps": null,
+      "symmetry": null
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 49.7,
+      "source": "watch",
+      "strain": 16.2
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "partial",
+      "hours": null,
+      "score": 87.3,
+      "source": "ring_interpolated"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": -1.8
+      },
+      "hrv": 45.8,
+      "rhr": 53.7,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 97.0
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-14",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 106.6,
+      "dataQuality": "ok",
+      "steps": 9932,
+      "symmetry": 0.904
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 35.3,
+      "source": "watch",
+      "strain": 16.0
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 76.0,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {},
+      "hrv": 43.7,
+      "rhr": 43.8,
+      "source": {
+        "hrv": "watch",
+        "rhr": "watch",
+        "spo2": "watch"
+      },
+      "spo2": 97.2
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-15",
+    "flags": {
+      "missingSources": [
+        "insole"
+      ],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": null,
+      "dataQuality": "missing",
+      "steps": null,
+      "symmetry": null
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 69.5,
+      "source": "watch",
+      "strain": 7.0
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "partial",
+      "hours": null,
+      "score": 74.2,
+      "source": "ring_interpolated"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "partial",
+      "disagreementDelta": {},
+      "hrv": 49.0,
+      "rhr": 55.3,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring"
+      },
+      "spo2": null
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-16",
+    "flags": {
+      "missingSources": [],
+      "outliers": [
+        {
+          "action": "watch_cardio_discarded_fell_back_to_ring",
+          "date": "2025-06-16",
+          "method": "median_hr_gt_150",
+          "metric": "watch_sensor_drift",
+          "value": null
+        }
+      ]
+    },
+    "gait": {
+      "cadence": 113.1,
+      "dataQuality": "ok",
+      "steps": 10882,
+      "symmetry": 0.954
+    },
+    "load": {
+      "dataQuality": "partial",
+      "recovery": null,
+      "source": "watch",
+      "strain": null
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 72.3,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": 20.0
+      },
+      "hrv": 54.2,
+      "rhr": 56.8,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 96.9
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-17",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 108.6,
+      "dataQuality": "ok",
+      "steps": 9563,
+      "symmetry": 0.924
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 67.7,
+      "source": "watch",
+      "strain": 9.3
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 85.1,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": 21.5
+      },
+      "hrv": 59.8,
+      "rhr": 55.3,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 96.9
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-18",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 108.3,
+      "dataQuality": "ok",
+      "steps": 9588,
+      "symmetry": 0.95
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 53.3,
+      "source": "watch",
+      "strain": 10.1
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 71.8,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": -0.8
+      },
+      "hrv": 47.8,
+      "rhr": 56.0,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 96.9
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-19",
+    "flags": {
+      "missingSources": [
+        "insole"
+      ],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": null,
+      "dataQuality": "missing",
+      "steps": null,
+      "symmetry": null
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 57.5,
+      "source": "watch",
+      "strain": 11.7
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 81.3,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {},
+      "hrv": 42.2,
+      "rhr": 62.2,
+      "source": {
+        "hrv": "watch",
+        "rhr": "watch",
+        "spo2": "watch"
+      },
+      "spo2": 97.0
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-20",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 104.8,
+      "dataQuality": "ok",
+      "steps": 8347,
+      "symmetry": 0.969
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 67.0,
+      "source": "watch",
+      "strain": 7.7
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "partial",
+      "hours": null,
+      "score": 83.3,
+      "source": "ring_interpolated"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": 16.6
+      },
+      "hrv": 60.0,
+      "rhr": 54.8,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 96.7
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-21",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 113.4,
+      "dataQuality": "ok",
+      "steps": 6308,
+      "symmetry": 0.942
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 38.1,
+      "source": "watch",
+      "strain": 11.7
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 85.3,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": -15.2
+      },
+      "hrv": 47.8,
+      "rhr": 56.7,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 97.4
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-22",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 105.3,
+      "dataQuality": "ok",
+      "steps": 10653,
+      "symmetry": 0.924
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 46.7,
+      "source": "watch",
+      "strain": 15.3
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 81.9,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": 22.8
+      },
+      "hrv": 63.0,
+      "rhr": 55.4,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 97.2
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-23",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 113.1,
+      "dataQuality": "ok",
+      "steps": 8329,
+      "symmetry": 0.966
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 58.8,
+      "source": "watch",
+      "strain": 12.5
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 73.2,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": 1.3
+      },
+      "hrv": 44.3,
+      "rhr": 55.1,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 97.1
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-24",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 112.1,
+      "dataQuality": "ok",
+      "steps": 9028,
+      "symmetry": 0.971
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 49.5,
+      "source": "watch",
+      "strain": 6.5
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 61.7,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": 23.0
+      },
+      "hrv": 65.0,
+      "rhr": 55.8,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 96.9
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-25",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 103.9,
+      "dataQuality": "ok",
+      "steps": 12063,
+      "symmetry": 0.94
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 100.0,
+      "source": "watch",
+      "strain": 15.4
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 88.5,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": 8.0
+      },
+      "hrv": 51.8,
+      "rhr": 56.9,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 97.1
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-26",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 112.5,
+      "dataQuality": "ok",
+      "steps": 9791,
+      "symmetry": 0.983
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 51.6,
+      "source": "watch",
+      "strain": 16.7
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 68.7,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": 20.0
+      },
+      "hrv": 57.8,
+      "rhr": 55.1,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 96.9
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-27",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 105.9,
+      "dataQuality": "ok",
+      "steps": 7931,
+      "symmetry": 0.966
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 57.5,
+      "source": "watch",
+      "strain": 8.7
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 82.2,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": -7.1
+      },
+      "hrv": 46.5,
+      "rhr": 54.7,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 96.8
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-28",
+    "flags": {
+      "missingSources": [],
+      "outliers": [
+        {
+          "action": "flagged",
+          "date": "2025-06-28",
+          "method": "robust_iqr_3x",
+          "metric": "steps",
+          "value": 3786.0
+        }
+      ]
+    },
+    "gait": {
+      "cadence": 109.1,
+      "dataQuality": "ok",
+      "steps": 3786,
+      "symmetry": 1.0
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 51.8,
+      "source": "watch",
+      "strain": 7.8
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 86.2,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": 10.8
+      },
+      "hrv": 58.8,
+      "rhr": 54.5,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 97.2
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-29",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 114.1,
+      "dataQuality": "ok",
+      "steps": 8544,
+      "symmetry": 0.911
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 69.2,
+      "source": "watch",
+      "strain": 8.0
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 82.7,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "ok",
+      "disagreementDelta": {
+        "hrv": -0.9
+      },
+      "hrv": 51.1,
+      "rhr": 56.4,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring",
+        "spo2": "watch"
+      },
+      "spo2": 97.0
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-06-30",
+    "flags": {
+      "missingSources": [],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": 111.1,
+      "dataQuality": "ok",
+      "steps": 8460,
+      "symmetry": 0.996
+    },
+    "load": {
+      "dataQuality": "ok",
+      "recovery": 68.6,
+      "source": "watch",
+      "strain": 12.2
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 88.8,
+      "source": "ring"
+    }
+  },
+  {
+    "cardio": {
+      "dataQuality": "partial",
+      "disagreementDelta": {},
+      "hrv": 49.5,
+      "rhr": 56.4,
+      "source": {
+        "hrv": "ring",
+        "rhr": "ring"
+      },
+      "spo2": null
+    },
+    "computedAt": "2025-06-30T00:00:00Z",
+    "date": "2025-07-01",
+    "flags": {
+      "missingSources": [
+        "insole",
+        "watch"
+      ],
+      "outliers": []
+    },
+    "gait": {
+      "cadence": null,
+      "dataQuality": "missing",
+      "steps": null,
+      "symmetry": null
+    },
+    "load": {
+      "dataQuality": "missing",
+      "recovery": null,
+      "source": null,
+      "strain": null
+    },
+    "patientId": "P001",
+    "schema_version": "1.0",
+    "sleep": {
+      "dataQuality": "ok",
+      "hours": 7.92,
+      "score": 90.2,
+      "source": "ring"
+    }
+  }
+]
