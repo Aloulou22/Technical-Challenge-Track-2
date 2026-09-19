@@ -17,7 +17,7 @@ python run.py                       # generate → fuse → narrate → write ou
 Optional:
 
 ```bash
-export OPENROUTER_API_KEY=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 # live LLM narrative (falls back to deterministic if unset) - For testing purposes only, you can set a shared API key
+export OPENROUTER_API_KEY=
 python run.py --check-idempotency   # run twice, prove byte-identical output
 pytest -v                           # 3 unit tests: timezone, dedup, outlier
 streamlit run dashboard.py          # bonus: patient dashboard
@@ -157,9 +157,3 @@ The unit of work is a single `(patient, day)` with no cross-patient state, so th
 **Also honest:** sleep `hours` is a sample-span approximation, the IQR check needs ≥4 valid days to mean anything on sparse patients, and interpolation is deliberately minimal — which means more `partial` fields than a more aggressive pipeline would show.
 
 ---
-
-## AI tools used — honestly
-
-I used **Claude (Opus 4.8 / Sonnet 4.6)** as a pair-programmer: scaffolding files, drafting the generator, and debugging timezone-bucketing edge cases. Every design decision here — source priority, the wake-attribution rule, what to interpolate and what to refuse to interpolate, the two-stage outlier approach and the four narrative safety layers.
-
-At runtime the narrative function calls **`google/gemini-2.5-flash-lite`** via **OpenRouter**.
